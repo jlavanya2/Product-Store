@@ -1,0 +1,25 @@
+{
+  "name": "product-store--mern",
+  "version": "1.0.0",
+  "description": "MERN Product Store",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon BACKEND/server.js",
+    "start": "cross-env NODE_ENV=production node BACKEND/server.js",
+    "build": "npm install && npm install --prefix FRONTEND && npm run build --prefix FRONTEND"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
