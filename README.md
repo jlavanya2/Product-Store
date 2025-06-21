@@ -20,4 +20,9 @@ Welcome to the Product Store project! This is a full-stack web application desig
 ### Getting Started:
 
 To get started with the project, clone the repository to set up both the frontend and backend. 
+https://github.com/jlavanya2/Product-Store.git
+
+For running the project type the command in your terminal:
+npm run start
+
 
